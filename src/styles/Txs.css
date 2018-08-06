@@ -1,0 +1,8 @@
+.address-transactions {
+  display: flex;
+  display: -webkit-flex;
+  width: 97%;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  margin-top: 15px;
+}

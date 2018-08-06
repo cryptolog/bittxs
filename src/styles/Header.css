@@ -1,0 +1,34 @@
+.app-header {
+  display: flex;
+  display: -webkit-flex;
+  flex-basis: 100%;
+  background-color: #e89855;
+  color: white;
+  height: 50px;
+}
+
+.address-input {
+  border-radius: 5px;
+  border: 1px solid #338b8b;
+  width: 350px;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #005050;
+  text-align: center;
+}
+
+.app-name {
+  margin-left: 2%;
+  font-family: 'Geo', sans-serif;
+  font-size: 34px;
+}
+
+.address-search {
+  margin-right: 2%;
+}
+
+@media screen and (max-width: 550px) {
+  .address-input {
+    width: 200px;
+  }
+}

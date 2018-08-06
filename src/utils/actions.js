@@ -1,0 +1,11 @@
+export const ADDRESS = 'ADDRESS';
+export const ADDRESS_STATUS = 'ADDRESS_STATUS';
+export const FETCH_STATUS = 'FETCH_STATUS';
+export const MORE_TXS = 'MORE_TXS';
+export const NEW_INFO = 'NEW_INFO';
+export const NEW_TXS = 'NEW_TXS';
+export const NEW_TXS_COUNT = 'NEW_TXS_COUNT';
+export const SOCKET_STATUS = 'SOCKET_STATUS';
+export const TXS = 'TXS';
+export const TXS_COUNT = 'TXS_COUNT';
+export const TXS_INFO = 'TXS_INFO';

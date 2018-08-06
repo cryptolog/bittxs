@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Geo');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.app-box {
+  display: flex;
+  display: -webkit-flex;
+  flex-basis: 100%;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+}
