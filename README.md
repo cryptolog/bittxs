@@ -1,5 +1,5 @@
 # BITTXS
-##Realtime Bitcoin Address Transaction Explorer
+## Realtime Bitcoin Address Transaction Explorer
 
 ### Install dependencies
 In the root directory, input
