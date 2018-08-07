@@ -4,7 +4,6 @@ import moment from 'moment';
 import '../styles/Tx.css';
 
 const Tx = props => {
-  // console.log(props);
   const { inputs, out, hash, time } = props.tx;
   let timeStamp = moment.unix(time).format('ddd MMM Do YYYY kk:mm:ss');
   let received = 0;
@@ -37,7 +36,7 @@ const Tx = props => {
         <div className="txs-info-title"> timestamp </div>
         <div className="txs-info-data"> {timeStamp} </div>
       </div>
-      <div className="txs-info-box txs-net-box middle">
+      <div className="txs-info-box txs-net-box">
         <div className="txs-info-title"> net BTC change </div>
         {netElem}
       </div>

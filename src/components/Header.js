@@ -27,7 +27,7 @@ class Header extends Component {
 
   render() {
     return (
-      <header className="app-header between middle">
+      <header className="app-header">
         <div className="app-name">BITTXS</div>
         <div className="address-search">
           <form onSubmit={this.handleSubmit}>

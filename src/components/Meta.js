@@ -25,7 +25,6 @@ class Meta extends Component {
     if (string.length < 9) {
       let diff = 9 - string.length;
       string = this.addZerosToSatoshiVal(string, diff);
-      console.log(string);
     }
     let right = string.slice(-8);
     let left = string.slice(0, -8);

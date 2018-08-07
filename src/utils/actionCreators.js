@@ -120,7 +120,7 @@ export function calcNewInfo(tx, address) {
 
 export function getAddressData(address, priorAddress, socketStatus) {
   return dispatch => {
-    fetch(`https://blockchain.info/rawaddr/${address}?cors=false`)
+    fetch(`https://blockchain.info/rawaddr/${address}?cors=true`)
       .then(result => result.text())
       .then(data => {
         let addressData = JSON.parse(data);
@@ -140,7 +140,7 @@ export function getAddressData(address, priorAddress, socketStatus) {
 export function getMoreTxs(address, offset) {
   return dispatch => {
     dispatch(broadcastFetchStatus('FETCHING'));
-    fetch(`https://blockchain.info/rawaddr/${address}?cors=false&offset=${offset}`)
+    fetch(`https://blockchain.info/rawaddr/${address}?cors=true&offset=${offset}`)
       .then(result => result.text())
       .then(data => {
         let addressData = JSON.parse(data);
