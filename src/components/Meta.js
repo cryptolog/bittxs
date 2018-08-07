@@ -63,8 +63,8 @@ class Meta extends Component {
         <div className="address-meta">
           <div className="meta-title"> Total BTC Received: </div>
           <div className="meta-data">
-            {sent.left}
-            <span className="decimal">.{sent.right} </span>
+            {received.left}
+            <span className="decimal">.{received.right} </span>
           </div>
         </div>
         <div className="address-meta">
